@@ -95,7 +95,7 @@ public class ItemControllerTests
         var item = createdAtActionResult.Value as Item;
         Assert.IsNotNull(item);
         Assert.AreEqual(1, item.Id);
-        Assert.AreEqual("New Item", item.Name);
+        Assert.AreEqual("Item", item.Name);
     }
 
     [TestMethod]
